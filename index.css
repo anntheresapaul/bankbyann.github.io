@@ -1,0 +1,214 @@
+.navbar{
+    background-color: chocolate;
+    height: 120px;
+    width: 100%;
+    z-index: 5;
+    position: fixed;
+    top:0;
+}
+.navbar-brand img
+{
+    border-radius: 80px;
+}
+.navbar .btn
+{
+    background-color: black;
+    color: white;
+}
+.nav-link
+{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+header
+{
+    background-image: url("Images/bg1.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 70%;
+}
+.container .text-center
+{
+    height: 300px;
+    margin-top: 120px;
+    background-color: rgb(210, 105, 30);
+    border-radius: 30px;
+    color: white;
+    padding: 50px;
+}
+header p{
+    font-size: 20px;
+}
+.text-center h2{
+    font-size: 80px;
+}
+.middle{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.card{
+    margin: 20px;
+    background-color: chocolate;
+    height: 360px;
+    text-align: center;
+    box-shadow: 12px 12px 18px black;
+    /* border-radius: 20px; */
+}
+.card .btn:hover{
+    background-color: black;
+    color: white;
+}
+.card .btn{
+    background-color: white;
+    margin: 20px;
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+    color: black;
+}
+.card-img-top{
+    height: 240px;
+}
+.final{
+    height: 100vh;
+    background-image: url("Images/bg2.jpg");
+    background-size: cover;
+    background-color: #d2691e;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.final .container{
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(0, 0, 0);
+    border-radius: 45px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    position: relative;
+}
+.final .container div{
+    width: 20rem;
+    height: 20rem;
+    /* background-color: blue; */
+    padding: 20px;
+    color: chocolate;
+    font-weight: bolder;
+}
+.final .container ul{
+    list-style: none;
+}
+.final .container a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-color: black;
+    height: 40vh;
+    padding: 40px;
+}
+footer .container .text-center{
+    height: 50vh !important;
+    background-color: aquamarine;
+    display: flex;justify-content: space-around;
+
+}
+footer .text-uppercase{
+    color: chocolate;
+}
+footer .col-md-2{
+    color: white;
+    width:20rem;
+}
+@media screen and (max-width:480px)
+{
+    .navbar{
+        height: 40vh;
+        width: 480px;
+    }
+    .navbar-nav{
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-item{
+        padding: 20px;
+    }
+    header{
+        width: 480px !important;
+    }
+    header .container-fluid{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container .text-center
+    {
+        height: 260px;
+        margin-top: 40vh;
+        padding: 20px;
+    }
+    .container .text-center h2{
+        font-size: 40px;
+    }
+    .container .text-center p{
+        font-size: 14px;
+    }
+    .middle{
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .card{
+        width: 12rem !important;
+        height: 16rem !important;
+    }
+    .card-img-top{
+        width: 100%;
+        height: 10rem;
+    }
+    .card .btn{
+        margin: 0;
+        padding: 10px;
+    }
+    .card-body{
+        height: 4rem;
+    }
+    .final{
+        height: 100vh;
+    }
+    .final .container{
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .final .container .item{
+        height: 16rem;
+        width: 14rem;
+        margin-left: 20px;
+    }
+     footer{
+        height: 100vh;
+    }
+    footer .container .text-center{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+     .col-md-2{
+        width: 12rem !important;
+        padding: 20px;
+    }
+}

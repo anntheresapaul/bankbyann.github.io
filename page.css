@@ -1,0 +1,82 @@
+body{
+    background-image: url("Images/bill.jpg");
+    background-size: cover;
+}
+form div{
+    margin-top: 40px;
+}
+.container-fluid
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container-fluid h2{
+    text-align: center;
+    color: rgb(244, 243, 242);
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+form{
+    height: auto;
+    width: 30%;
+    background-color: rgba(0, 0, 0,.7);
+    padding: 30px;
+    border-radius: 20px;
+}
+input[type=password],input[type=text],input[type=date],input[type=integer]{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid white;
+    color: white;
+    width: 100%;
+    font-size: 22px;
+}
+.radio-inline
+{
+    padding-left: 10px;
+}
+label{
+    color: chocolate;
+    font-size: 22px;
+}
+.btn{
+    background-color: chocolate;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: white;
+    color:chocolate;
+}
+::placeholder {
+    color:chocolate;
+}
+.text-center{
+    color:white;
+}
+@media screen and (max-width:480px)
+{
+    form{
+        width:400px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:720px)
+{
+    form{
+        width:600px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+h3{
+    color:white;
+}
